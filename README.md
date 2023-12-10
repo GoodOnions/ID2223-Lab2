@@ -24,7 +24,26 @@ Image of wisper model architecture:
 <p align="center">
     <img src="https://cdn-images-1.medium.com/max/800/1*aSdK_bRq3bhrXpP_TdgIHg.png" alt="Wisper Architecture"/>
 
-  
+## Repository structure
+```
+├── README.md
+├── 01-Data-Preparation.ipynb
+├── 02-Model-Fine-Tuning.ipynb
+```
+We have splitted the data pipeline in two notebooks, one for data preparation and one for model fine-tuning. The first notebook is used to download the dataset and prepare it for fine-tuning. The second notebook is used to fine-tune the model and evaluate it on the test set.
 
+In this way is possible to run the data processing on CPU and the model fine-tuning on GPU. Features are saved in google drive.
+## Hagging Face interface
+After the training phase, we uploaded the model to the [Hugging Face](https://huggingface.co/) platform, which allows us to use the model through a simple REST API. The model can be found at the following [link](https://huggingface.co/FredBonux/whisper-small-it).
 
+The model can be used in two different ways:
+- **Audio to text** : the model takes as input an audio file and returns the corresponding italian text, then the text is translated into english.
+- **Video to english text** : the model takes as input a video file and returns the corresponding english text.
+
+![img](img/hf_interface.png)
+
+## Task 2: Improve model performance 
+In order to improve performance we can use 2 different approaches:
+- **Data-centric approach**: focus on improving the quality of the data used for training. This can be done by increasing the amount of data used for training, or by improving the quality of the data used for training.
+- **Model-centric approach**: focus on improving the model architecture. This can be done by increasing the number of parameters of the model, or by improving the model architecture.
 
