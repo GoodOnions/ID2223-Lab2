@@ -42,7 +42,7 @@ The model can be used in two different ways:
 
 ![img](img/hf_interface.png)
 
-Open the interface [here]((https://huggingface.co/spaces/GoodOnions/ID2223-Lab2))!
+Open the interface [here](https://huggingface.co/spaces/GoodOnions/ID2223-Lab2)!
 
 ## Task 2: Improve model performance 
 In order to improve performance we can use 2 different approaches:
