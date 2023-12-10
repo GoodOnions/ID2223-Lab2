@@ -42,6 +42,8 @@ The model can be used in two different ways:
 
 ![img](img/hf_interface.png)
 
+Open the interface [here]((https://huggingface.co/spaces/GoodOnions/ID2223-Lab2))!
+
 ## Task 2: Improve model performance 
 In order to improve performance we can use 2 different approaches:
 - **Data-centric approach**: focus on improving the quality of the data used for training. This can be done by increasing the amount of data used for training, or by improving the quality of the data used for training.
